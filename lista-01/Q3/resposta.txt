@@ -1,0 +1,57 @@
+Questão 03 - Elabore um resumo elencando as principais
+características dos containers (lista, fila, pilha, deque, vector, set e
+map). Pesquise e cite um possível uso para cada tipo de estrutura:
+
+R {
+Lista: 
+  É uma sequência de elementos que estão ligados um ao outro por meio de ponteiros, permitindo que
+  sejam facilmente adicionados ou removidos elementos do início, meio ou fim da lista. É útil para 
+  ordenar uma grande quantidade de elementos, como em um sistema de ordenação de dados.
+
+Exemplo de uso: Organizar um número grande de livros em uma lista. Usando uma lista, é possível adicionar
+ou remover livros com facilidade, sem precisar mudar todos os outros livros de posição.
+
+Fila: 
+  É uma estrutura que segue a ordem FIFO (first-in, first-out). É útil para
+  coisas que precisam ser executados na ordem em que foram recebidos.
+
+Exemplo de uso: Um exemplo de fila seria o sistema de pedidos de um restaurante, onde o primeiro pedido
+ recebido é o primeiro a ser feito.
+
+Pilha: 
+  É uma estrutura que segue a ordem LIFO (last-in, first-out). É útil para 
+  acessar elementos recentementes adicionados na stack ou para realizar buscas 
+  em profundidade em algoritmos.
+
+Exemplo de uso: Num editor de texto o botão "desfazer" se utiliza da stack para pegar
+das mais recentes ações até as mais antigas. As edições são empilhadas e desempilhadas
+conforme o usuário faz as operações.
+
+Deque: 
+  É uma estrutura que permite adicionar ou remover elementos no início ou fim da sequência de 
+  forma rápida. É útil quando você precisa acessar elementos em ambas as extremidades da sequência.
+
+Exemplo de uso: Um exemplo de uso seria um jogo de cartas, onde as cartas precisam ser empilhadas
+tanto no início quanto no final da sequência.
+
+Vector: 
+  É um array dinâmico que permite acesso aleatório aos elementos. É útil quando você conhece o tamanho
+  da sequência antecipadamente e precisa de acesso frequente aos elementos.
+
+Exemplo de uso: Armazenar as coordenadas de pontos em um plano cartesiano, onde cada ponto seria 
+representado por um elemento do vetor contendo as suas coordenadas (x,y).
+
+Set: 
+  É uma estrutura que armazena elementos exclusivos em ordem ordenada. É útil para tarefas que exigem
+  a pesquisa, inserção e exclusão de elementos em tempo logarítmico.
+
+Exemplo de uso: Um dicionário onde as palavras são armazenadas em ordem alfabética e 
+os elementos duplicados são eliminados.
+
+Map: 
+  É uma estrutura que armazena pares de chave-valor em ordem ordenada pela chave. É útil para tarefas
+  que exigem a pesquisa,inserção e exclusão de elementos em tempo logarítmico.
+
+Exemplo de uso: Um exemplo seria uma lista telefônica, onde os nomes são as chaves e os números de 
+telefone são os valores.
+}
